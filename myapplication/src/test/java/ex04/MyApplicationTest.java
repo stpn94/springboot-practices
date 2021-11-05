@@ -1,4 +1,4 @@
-package ex1;
+package ex04;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -6,13 +6,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import ex01.MyApplication;
-import ex01.MyComponent;
+import ex04.component.MyComponent;
 
-// @ExtendWith(SpringExtension.class)
-// @ContextConfiguration(classes= {MyApplication.class})
-@SpringBootTest(classes= {MyApplication.class})
-public class MyApplicationTest02 {
+@SpringBootTest
+public class MyApplicationTest {
 	@Autowired
 	private MyComponent myComponent;
 	

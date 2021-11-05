@@ -6,14 +6,15 @@
 	<artifactId>springboot-practices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-	</properties>	
-		
+	</properties>
+
 	<modules>
 		<module>helloworld</module>
 		<module>myapplication</module>
+		<module>myweb</module>
 	</modules>
 </project>
